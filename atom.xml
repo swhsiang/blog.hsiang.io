@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>smalltalk.swhsiang.github.io</title>
+  <title>Hsiang</title>
   
-  <subtitle>Thought from nobody</subtitle>
+  <subtitle>我是旅人, 唱著詩歌走向遠方</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://smalltalk.hsiang.github.io/"/>
