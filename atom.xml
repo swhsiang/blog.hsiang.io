@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://smalltalk.hsiang.github.io/"/>
-  <updated>2018-03-18T11:35:38.845Z</updated>
+  <updated>2018-03-18T12:39:26.915Z</updated>
   <id>http://smalltalk.hsiang.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://smalltalk.hsiang.github.io/2018/03/18/i-miss-my-grandfather/"/>
     <id>http://smalltalk.hsiang.github.io/2018/03/18/i-miss-my-grandfather/</id>
     <published>2018-03-18T10:47:02.000Z</published>
-    <updated>2018-03-18T11:35:38.845Z</updated>
+    <updated>2018-03-18T12:39:26.915Z</updated>
     
-    <content type="html"><![CDATA[<blockquote><p>我想念我爺爺。</p></blockquote><p>他在2018年二月八號早上壽終正寢, 於睡夢中安然離世。他的離去留下很多遺憾, 來不及包紅包給他的遺憾, 來不及好好擁抱他的遺憾, 來不及讓他看到孫子功成名就的遺憾。</p><blockquote><p>還有好多好多的遺憾。</p></blockquote><p>一個月過去, 我甚至快忘記他的聲音了, 這輩子再也沒機會聽到他的關心了。再也不會聽到他跟我說, “要作息正常, 早點睡覺”。</p><blockquote><p>我意識到我快忘記他的聲音了。</p></blockquote><p>如果我可以拿一段有他的聲音的音檔train一個model, 用那個model 說出那些叮嚀的話, 那該有多好。</p><h2 id="Criteria-Constraints"><a href="#Criteria-Constraints" class="headerlink" title="Criteria / Constraints"></a>Criteria / Constraints</h2><ul><li>A few-minute-long video</li></ul><h2 id="Potential-Solutions"><a href="#Potential-Solutions" class="headerlink" title="Potential Solutions"></a>Potential Solutions</h2><p>這邊紀錄可能的方法達成上述目的。</p><p>與此主題有關的關鍵字有: “speech synthesis”</p><h3 id="Papers"><a href="#Papers" class="headerlink" title="Papers"></a>Papers</h3><ul><li><a href="https://arxiv.org/pdf/1609.03499.pdf" target="_blank" rel="noopener">Weavenet</a></li><li><a href="https://arxiv.org/abs/1702.07825" target="_blank" rel="noopener">Deep Voice</a></li></ul><h3 id="Companies"><a href="#Companies" class="headerlink" title="Companies"></a>Companies</h3><ul><li><a href="https://lyrebird.ai/" target="_blank" rel="noopener">Lyrebird</a><ul><li>Example, <a href="https://www.youtube.com/watch?v=YfU_sWHT8mo" target="_blank" rel="noopener">Obama</a></li></ul></li></ul><p>快速的探索現有的技術, 當初的想法很有可能達成, 不論要花多久, 我一定要自己完成那個model, 我很想念他, 我希望再一次聽到他的聲音, 聽到他談談他以前的事。</p>]]></content>
+    <content type="html"><![CDATA[<blockquote><p>我想念我爺爺。</p></blockquote><p>他在2018年二月八號早上壽終正寢, 於睡夢中安然離世。他的離去留下很多遺憾, 來不及包紅包給他的遺憾, 來不及好好擁抱他的遺憾, 來不及讓他驕傲的遺憾。</p><blockquote><p>還有好多好多的遺憾。</p></blockquote><p>一個月過去, 我甚至快忘記他的聲音了, 這輩子再也沒機會聽到他的關心了。再也不會聽到他跟我說, “要作息正常, 早點睡覺”。</p><blockquote><p>我意識到我快忘記他的聲音了。</p></blockquote><p>如果我可以拿一段有他的聲音的音檔train一個model, 用那個model 說出那些叮嚀的話, 那該有多好。</p><h2 id="Criteria-Constraints"><a href="#Criteria-Constraints" class="headerlink" title="Criteria / Constraints"></a>Criteria / Constraints</h2><ul><li>A few-minute-long video</li></ul><h2 id="Potential-Solutions"><a href="#Potential-Solutions" class="headerlink" title="Potential Solutions"></a>Potential Solutions</h2><p>這邊紀錄可能的方法達成上述目的。</p><p>與此主題有關的關鍵字有: “speech synthesis”</p><h3 id="Papers"><a href="#Papers" class="headerlink" title="Papers"></a>Papers</h3><ul><li><a href="https://arxiv.org/pdf/1609.03499.pdf" target="_blank" rel="noopener">Weavenet</a></li><li><a href="https://arxiv.org/abs/1702.07825" target="_blank" rel="noopener">Deep Voice</a></li></ul><h3 id="Companies"><a href="#Companies" class="headerlink" title="Companies"></a>Companies</h3><ul><li><a href="https://lyrebird.ai/" target="_blank" rel="noopener">Lyrebird</a><ul><li>Example, <a href="https://www.youtube.com/watch?v=YfU_sWHT8mo" target="_blank" rel="noopener">Obama</a></li></ul></li></ul><h2 id="Conclusion"><a href="#Conclusion" class="headerlink" title="Conclusion"></a>Conclusion</h2><p>快速的探索現有的技術, 當初的想法很有可能達成, 不論要花多久, 我一定要自己完成那個model, 我很想念他, 我希望再一次聽到他的聲音, 聽到他談談他以前的事。</p>]]></content>
     
     <summary type="html">
     
@@ -32,8 +32,9 @@
         &lt;blockquote&gt;
 &lt;p&gt;我想念我爺爺。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;他在2018年二月八號早上壽終正寢, 於睡夢中安然離世。他的離去留下很多遺憾, 來不及包紅包給他的遺憾, 來不及好好擁抱他的遺憾, 來不及讓他看到孫子功成名就的遺憾。&lt;/p&gt;
-&lt;blockq
+&lt;p&gt;他在2018年二月八號早上壽終正寢, 於睡夢中安然離世。他的離去留下很多遺憾, 來不及包紅包給他的遺憾, 來不及好好擁抱他的遺憾, 來不及讓他驕傲的遺憾。&lt;/p&gt;
+&lt;blockquote&gt;
+
       
     
     </summary>
