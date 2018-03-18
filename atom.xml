@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>smalltalk.swhsiang.github.io</title>
+  
   <subtitle>Thought from nobody</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://smalltalk.hsiang.github.io/"/>
-  <updated>2017-07-03T19:21:40.000Z</updated>
+  <updated>2018-03-18T11:35:38.845Z</updated>
   <id>http://smalltalk.hsiang.github.io/</id>
   
   <author>
@@ -16,26 +17,47 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>我想念我阿公: 論使用Deep Learning重現人聲</title>
+    <link href="http://smalltalk.hsiang.github.io/2018/03/18/i-miss-my-grandfather/"/>
+    <id>http://smalltalk.hsiang.github.io/2018/03/18/i-miss-my-grandfather/</id>
+    <published>2018-03-18T10:47:02.000Z</published>
+    <updated>2018-03-18T11:35:38.845Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>我想念我爺爺。</p></blockquote><p>他在2018年二月八號早上壽終正寢, 於睡夢中安然離世。他的離去留下很多遺憾, 來不及包紅包給他的遺憾, 來不及好好擁抱他的遺憾, 來不及讓他看到孫子功成名就的遺憾。</p><blockquote><p>還有好多好多的遺憾。</p></blockquote><p>一個月過去, 我甚至快忘記他的聲音了, 這輩子再也沒機會聽到他的關心了。再也不會聽到他跟我說, “要作息正常, 早點睡覺”。</p><blockquote><p>我意識到我快忘記他的聲音了。</p></blockquote><p>如果我可以拿一段有他的聲音的音檔train一個model, 用那個model 說出那些叮嚀的話, 那該有多好。</p><h2 id="Criteria-Constraints"><a href="#Criteria-Constraints" class="headerlink" title="Criteria / Constraints"></a>Criteria / Constraints</h2><ul><li>A few-minute-long video</li></ul><h2 id="Potential-Solutions"><a href="#Potential-Solutions" class="headerlink" title="Potential Solutions"></a>Potential Solutions</h2><p>這邊紀錄可能的方法達成上述目的。</p><p>與此主題有關的關鍵字有: “speech synthesis”</p><h3 id="Papers"><a href="#Papers" class="headerlink" title="Papers"></a>Papers</h3><ul><li><a href="https://arxiv.org/pdf/1609.03499.pdf" target="_blank" rel="noopener">Weavenet</a></li><li><a href="https://arxiv.org/abs/1702.07825" target="_blank" rel="noopener">Deep Voice</a></li></ul><h3 id="Companies"><a href="#Companies" class="headerlink" title="Companies"></a>Companies</h3><ul><li><a href="https://lyrebird.ai/" target="_blank" rel="noopener">Lyrebird</a><ul><li>Example, <a href="https://www.youtube.com/watch?v=YfU_sWHT8mo" target="_blank" rel="noopener">Obama</a></li></ul></li></ul><p>快速的探索現有的技術, 當初的想法很有可能達成, 不論要花多久, 我一定要自己完成那個model, 我很想念他, 我希望再一次聽到他的聲音, 聽到他談談他以前的事。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;blockquote&gt;
+&lt;p&gt;我想念我爺爺。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;他在2018年二月八號早上壽終正寢, 於睡夢中安然離世。他的離去留下很多遺憾, 來不及包紅包給他的遺憾, 來不及好好擁抱他的遺憾, 來不及讓他看到孫子功成名就的遺憾。&lt;/p&gt;
+&lt;blockq
+      
+    
+    </summary>
+    
+    
+      <category term="deep-learning" scheme="http://smalltalk.hsiang.github.io/tags/deep-learning/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Hello World</title>
     <link href="http://smalltalk.hsiang.github.io/2017/07/04/hello-world/"/>
     <id>http://smalltalk.hsiang.github.io/2017/07/04/hello-world/</id>
     <published>2017-07-03T19:21:40.000Z</published>
     <updated>2017-07-03T19:21:40.000Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-]]></content>
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
     
     </summary>
     
